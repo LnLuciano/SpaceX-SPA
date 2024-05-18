@@ -1,0 +1,65 @@
+
+body{
+    background-color: rgb(255, 147, 7);
+}
+body h1{
+    color: rgb(47, 40, 37);
+}
+
+main{
+    display: grid;
+}
+.home-launches-container{
+    background-color: rgb(248, 182, 95);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: rgb(47, 40, 37);
+}
+
+.rocket-container{
+    display: grid;
+    width: 50%;
+   
+    background-color: rgb(248, 182, 95);
+    justify-self: center;
+    align-self: center;
+    border-radius: 25px;
+}
+
+.rocket-container img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-self: center;
+    align-self: initial;
+}
+
+
+.rocket-container div{
+    margin-bottom: 10px;
+    padding-left: 2%;
+    width: 90%;
+
+    display: grid;
+    grid-template-columns: 20% auto;
+    
+    background-color: rgb(202, 155, 93);
+    color: rgb(47, 40, 37);
+    justify-self: center;
+    align-self: initial;
+    border-radius: 5px;
+
+}
+.rocket-container div h3{
+    margin: 0px;
+}
+.rocket-container div p{
+    align-self: center;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
